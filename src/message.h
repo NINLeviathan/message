@@ -9,7 +9,7 @@ private:
     const std::string m_theMessage = "Hello message";
 
 public:
-    Message() = default;
+    Message()  = default;
     ~Message() = default;
 
     std::string TheMessage();
