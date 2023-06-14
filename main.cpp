@@ -1,8 +1,8 @@
-#include "src/message.h"
+#include "src/messagetwo.h"
 
-int main(int argc, char const *argv[])
+int main(int argc, char const* argv[])
 {
-    Message Message;
-    std::cout << Message.TheMessage() << std::endl;
+    MessageTwo MessageTwo;
+    std::cout << MessageTwo.TheMessage() << std::endl;
     return 0;
 }
