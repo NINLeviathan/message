@@ -8,6 +8,11 @@ A meson.build file for this repo is to be supplied by projects using this repo.
 i.e. this project is to be used as a subproject, where the consuming project supplies meson.build file through the use of mesons wrap file functionality.  
 [Meson wrap dependency system manual](https://mesonbuild.com/Wrap-dependency-system-manual.html)
 
+## v3.0
+
+In v3.0 this project has been updated to selfhost a meson build file.
+For the purpose of verifying this also works, when this project is used as a subproject for other meson projects.  
+
 ## Prerequisites
 
 g++ compiler
